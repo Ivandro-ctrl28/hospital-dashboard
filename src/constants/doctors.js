@@ -1,0 +1,32 @@
+export const doctors = [
+  {
+    id: 1,
+    name: "Dr. John Smith",
+    specialty: "Cardiology",
+    experience: "12 Years",
+    phone: "+1 987 654 321",
+    email: "john@hospital.com",
+    patients: 134,
+    status: "Available",
+  },
+  {
+    id: 2,
+    name: "Dr. Emily Johnson",
+    specialty: "Neurology",
+    experience: "9 Years",
+    phone: "+1 555 222 111",
+    email: "emily@hospital.com",
+    patients: 88,
+    status: "Busy",
+  },
+  {
+    id: 3,
+    name: "Dr. Michael Brown",
+    specialty: "Pediatrics",
+    experience: "15 Years",
+    phone: "+1 888 222 999",
+    email: "michael@hospital.com",
+    patients: 176,
+    status: "Available",
+  },
+];
