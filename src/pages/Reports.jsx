@@ -57,8 +57,8 @@ const Reports = () => {
       <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
 
         <div>
-          <h1 className="text-4xl font-bold">Reports</h1>
-          <p className="text-gray-400">
+          <h1 className="text-4xl font-bold text-white">Reports</h1>
+          <p className="text-white">
             Hospital analytics and performance overview
           </p>
         </div>

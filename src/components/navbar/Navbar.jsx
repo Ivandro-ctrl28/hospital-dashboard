@@ -55,7 +55,7 @@ const Navbar = () => {
                 backdrop-blur-xl
                 px-4
                 md:px-8
-                py-4
+                py-4  text-white
             "
         >
             {/* SEARCH */}
@@ -79,7 +79,7 @@ const Navbar = () => {
             >
                 <Search
                     size={18}
-                    className="text-gray-400"
+                    className="text-white"
                 />
 
                 <input
@@ -115,6 +115,7 @@ const Navbar = () => {
                         relative
                         p-2
                         rounded-lg
+                        text-white
                         hover:bg-gray-800
                         hover:text-blue-400
                         transition
@@ -238,7 +239,7 @@ const Navbar = () => {
                 >
                     <UserCircle
                         size={36}
-                        className="text-blue-500"
+                        className="text-white"
                     />
 
                     <div className="hidden lg:block">

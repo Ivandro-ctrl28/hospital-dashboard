@@ -19,7 +19,7 @@ const Patients = () => {
             Patients
           </h1>
 
-          <p className="mt-2 text-gray-400">
+          <p className="mt-2 text-white">
             Manage hospital patients efficiently.
           </p>
         </div>

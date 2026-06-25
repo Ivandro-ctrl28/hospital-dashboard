@@ -42,7 +42,7 @@ const PatientTable = ({ patients }) => {
             className="
             bg-transparent
             outline-none
-            w-full
+            w-full text-white
             "
           />
 
@@ -54,7 +54,7 @@ const PatientTable = ({ patients }) => {
 
         <thead>
 
-          <tr className="border-b border-slate-700 text-left text-gray-400">
+          <tr className="border-b border-slate-700 text-left text-white">
 
             <th className="pb-4">Photo</th>
 
@@ -94,15 +94,15 @@ const PatientTable = ({ patients }) => {
 
               </td>
 
-              <td>{patient.name}</td>
+              <td className="text-white">{patient.name}</td>
 
-              <td>{patient.age}</td>
+              <td className="text-white">{patient.age}</td>
 
-              <td>{patient.gender}</td>
+              <td className="text-white">{patient.gender}</td>
 
-              <td>{patient.blood}</td>
+              <td className="text-white">{patient.blood}</td>
 
-              <td>{patient.phone}</td>
+              <td className="text-white">{patient.phone}</td>
 
               <td>
 
@@ -115,7 +115,7 @@ const PatientTable = ({ patients }) => {
 
                   ${
                     patient.status === "Active"
-                      ? "bg-green-600/20 text-green-400"
+                      ? "bg-green-600/20 text-white"
 
                       : patient.status === "Critical"
 

@@ -39,10 +39,10 @@ const Billing = () => {
     <div className="space-y-8">
 
       {/* HEADER */}
-      <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
+      <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between text-white">
 
         <div>
-          <h1 className="text-4xl font-bold">Billing</h1>
+          <h1 className="text-4xl font-bold text-white">Billing</h1>
           <p className="text-gray-400">
             Manage invoices, payments and revenue
           </p>

@@ -7,7 +7,7 @@ import { doctors } from "../constants/doctors";
 
 const Doctors = () => {
   const [openModal, setOpenModal] = useState(false);
-
+  
   return (
     <div className="space-y-8">
 
@@ -55,10 +55,10 @@ const Doctors = () => {
 
       {/* Modal */}
 
-      <AddDoctorModal
-        open={openModal}
-        onClose={() => setOpenModal(false)}
-      />
+     <AddDoctorModal
+  open={openModal}
+  onClose={() => setOpenModal(false)}
+/>
 
     </div>
   );
